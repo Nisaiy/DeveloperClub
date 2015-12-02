@@ -1,0 +1,33 @@
+#include <stdio.h>
+#define ROT 13
+
+void strRot13(char str[]) {
+    int i = 0;
+    char change;
+    for ( char letter = str[0]; latter != '\0'; i++ ) {
+        if ( latter >= 'A' && latter <= 'Z') {
+            if ( (change = latter + rot) <= 'Z' ) {
+                latter = change;
+            } else { 
+                change = latter - rot;
+                latter = change
+            }
+        } else if ( latter >= 'a' && latter <= 'z') {
+            if ( (change = latter + rot) <= 'z' ) {
+                latter = change;
+            } else { 
+                change = latter - rot;
+                latter = change
+            }
+        }
+    }
+}
+
+
+    int main() {
+    char str[] = { 'A', 'C', 'Y', 'Z', '1', 'c', ')', '!' };
+
+    strRot13(str);
+
+    return 0;
+}
