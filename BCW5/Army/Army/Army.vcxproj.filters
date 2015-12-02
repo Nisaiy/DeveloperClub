@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Attack">
+      <UniqueIdentifier>{e90aad9b-7860-46a1-b3d7-ab0f2491f3a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Attack">
+      <UniqueIdentifier>{e3b8eba2-ac57-42ad-b66a-399e76333770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Units">
+      <UniqueIdentifier>{358d262e-c5a4-42ab-a11e-538dc3f4164e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Units\Casters">
+      <UniqueIdentifier>{b5ccdc46-91f8-431e-b1c4-c213a3bccce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Units\warriors">
+      <UniqueIdentifier>{61044461-0597-4c41-82de-00fa70c636eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Spells">
+      <UniqueIdentifier>{36668ee3-095f-4b50-8c98-8df6d0906836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\States">
+      <UniqueIdentifier>{601d0302-48a7-4797-ac1b-d8c9e6cc2961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\States">
+      <UniqueIdentifier>{41b17514-925c-41c5-9e82-394944a9c8b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Spells">
+      <UniqueIdentifier>{0f26ee99-de17-4752-a283-fe33edf723ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Units">
+      <UniqueIdentifier>{96ee04ac-ea25-4882-9a1f-5b0daf896a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Units\Casters">
+      <UniqueIdentifier>{b6462cc3-9638-46de-b375-ed521446785c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Units\warriors">
+      <UniqueIdentifier>{dec2f4eb-0a7d-4fca-a887-71b2af6f8ed6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Attack.h">
+      <Filter>Заголовочные файлы\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="HumanAttack.h">
+      <Filter>Заголовочные файлы\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellCaster.h">
+      <Filter>Заголовочные файлы\Units\Casters</Filter>
+    </ClInclude>
+    <ClInclude Include="Berserker.h">
+      <Filter>Заголовочные файлы\Units\warriors</Filter>
+    </ClInclude>
+    <ClInclude Include="Soldier.h">
+      <Filter>Заголовочные файлы\Units\warriors</Filter>
+    </ClInclude>
+    <ClInclude Include="Werwolf.h">
+      <Filter>Заголовочные файлы\Units\warriors</Filter>
+    </ClInclude>
+    <ClInclude Include="Wizard.h">
+      <Filter>Заголовочные файлы\Units\Casters</Filter>
+    </ClInclude>
+    <ClInclude Include="FireBall.h">
+      <Filter>Заголовочные файлы\Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellBook.h">
+      <Filter>Заголовочные файлы\Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="Spell.h">
+      <Filter>Заголовочные файлы\Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Заголовочные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Заголовочные файлы\States</Filter>
+    </ClInclude>
+    <ClInclude Include="WerwolfAttack.h">
+      <Filter>Заголовочные файлы\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="WerwolfState.h">
+      <Filter>Заголовочные файлы\States</Filter>
+    </ClInclude>
+    <ClInclude Include="RogueAttack.h">
+      <Filter>Заголовочные файлы\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="Rogue.h">
+      <Filter>Заголовочные файлы\Units\warriors</Filter>
+    </ClInclude>
+    <ClInclude Include="Vampire.h">
+      <Filter>Заголовочные файлы\Units\warriors</Filter>
+    </ClInclude>
+    <ClInclude Include="VampireAttack.h">
+      <Filter>Заголовочные файлы\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="Heal.h">
+      <Filter>Заголовочные файлы\Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="Healer.h">
+      <Filter>Заголовочные файлы\Units\Casters</Filter>
+    </ClInclude>
+    <ClInclude Include="Demon.h">
+      <Filter>Заголовочные файлы\Units\warriors</Filter>
+    </ClInclude>
+    <ClInclude Include="Warlock.h">
+      <Filter>Заголовочные файлы\Units\Casters</Filter>
+    </ClInclude>
+    <ClInclude Include="Priest.h">
+      <Filter>Заголовочные файлы\Units\Casters</Filter>
+    </ClInclude>
+    <ClInclude Include="Necromanser.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Army.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="HumanAttack.cpp">
+      <Filter>Файлы исходного кода\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="Attack.cpp">
+      <Filter>Файлы исходного кода\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="Berserker.cpp">
+      <Filter>Файлы исходного кода\Units\warriors</Filter>
+    </ClCompile>
+    <ClCompile Include="Soldier.cpp">
+      <Filter>Файлы исходного кода\Units\warriors</Filter>
+    </ClCompile>
+    <ClCompile Include="FireBall.cpp">
+      <Filter>Файлы исходного кода\Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="Spell.cpp">
+      <Filter>Файлы исходного кода\Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellBook.cpp">
+      <Filter>Файлы исходного кода\Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellCaster.cpp">
+      <Filter>Файлы исходного кода\Units\Casters</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Файлы исходного кода\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Файлы исходного кода\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Werwolf.cpp">
+      <Filter>Файлы исходного кода\Units\warriors</Filter>
+    </ClCompile>
+    <ClCompile Include="WerwolfState.cpp">
+      <Filter>Файлы исходного кода\States</Filter>
+    </ClCompile>
+    <ClCompile Include="WerwolfAttack.cpp">
+      <Filter>Файлы исходного кода\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="Wizard.cpp">
+      <Filter>Файлы исходного кода\Units\Casters</Filter>
+    </ClCompile>
+    <ClCompile Include="Rogue.cpp">
+      <Filter>Файлы исходного кода\Units\warriors</Filter>
+    </ClCompile>
+    <ClCompile Include="RogueAttack.cpp">
+      <Filter>Файлы исходного кода\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="VampireAttack.cpp">
+      <Filter>Файлы исходного кода\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="Vampire.cpp">
+      <Filter>Файлы исходного кода\Units\warriors</Filter>
+    </ClCompile>
+    <ClCompile Include="Heal.cpp">
+      <Filter>Файлы исходного кода\Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="Healer.cpp">
+      <Filter>Файлы исходного кода\Units\Casters</Filter>
+    </ClCompile>
+    <ClCompile Include="Priest.cpp">
+      <Filter>Файлы исходного кода\Units\Casters</Filter>
+    </ClCompile>
+    <ClCompile Include="Demon.cpp">
+      <Filter>Файлы исходного кода\Units\warriors</Filter>
+    </ClCompile>
+    <ClCompile Include="Warlock.cpp">
+      <Filter>Файлы исходного кода\Units\Casters</Filter>
+    </ClCompile>
+    <ClCompile Include="Necromanser.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
